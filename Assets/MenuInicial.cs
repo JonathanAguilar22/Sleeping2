@@ -8,19 +8,21 @@ public class MenuInicial : MonoBehaviour
 {
     public VideoPlayer intro;
     public GameObject menuInicial;
+    public GameObject fondoNegro;
 
     private void Awake()
     {
-        menuInicial.SetActive(false); 
+        fondoNegro.SetActive(true); 
+        menuInicial.SetActive(false);
         intro = GetComponent<VideoPlayer>();
         intro.Play();
         intro.loopPointReached += PasarMenu;
-         
     }
 
     void PasarMenu(VideoPlayer vp)
     {
         gameObject.SetActive(false);
+        fondoNegro.SetActive(false);
         menuInicial.SetActive(true);
     }
 
