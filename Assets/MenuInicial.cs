@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using UnityEngine.Audio;
 
 public class MenuInicial : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class MenuInicial : MonoBehaviour
     public GameObject fondoNegro;
 
     private void Awake()
-    {
+    { 
         fondoNegro.SetActive(true); 
         menuInicial.SetActive(false);
         intro = GetComponent<VideoPlayer>();
@@ -24,11 +25,6 @@ public class MenuInicial : MonoBehaviour
         gameObject.SetActive(false);
         fondoNegro.SetActive(false);
         menuInicial.SetActive(true);
-    }
-
-    public void Jugar()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
 
     public void Salir()
