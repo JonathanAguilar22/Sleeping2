@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/IntroLogos.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: f6a1e27de8d96534f99dc28ce38b7bf8
   - enabled: 1
     path: Assets/Scenes/MenuInicial.unity
     guid: bc56afd00445a1141885c299007072b4
+  - enabled: 1
+    path: Assets/Scenes/Bimo.unity
+    guid: f7813db9f6b6de34db8f7d419295c9b5
   m_configObjects: {}

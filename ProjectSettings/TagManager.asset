@@ -3,17 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Secret
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bimo
   - Water
   - UI
   - 
   - 
-  - 
+  - Suelo
   - 
   - 
   - 
@@ -38,6 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3218492453
+    locked: 0
+  - name: Bimo
+    uniqueID: 2880288515
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
