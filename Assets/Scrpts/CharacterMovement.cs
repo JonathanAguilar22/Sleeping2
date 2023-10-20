@@ -75,6 +75,7 @@ public class CharacterMovement : MonoBehaviour
         pantallaGameOver.SetActive(false);
         escPulsada = false;
         estado = Estados.Juego;
+        Time.timeScale = 1f;
     }
 
 
